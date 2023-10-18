@@ -1,0 +1,15 @@
+.projectMain {
+    background: #FEF8E6;
+
+    .projectContainer {
+        padding: 60px 0;
+        .projectsImages {
+            display: flex;
+            justify-content: center;
+
+            .project-img {
+                width: 100%;
+            }
+        }
+    }
+}

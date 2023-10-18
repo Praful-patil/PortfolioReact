@@ -1,0 +1,13 @@
+.myServiceContainer {
+    margin-top: 60px;
+
+    .myServiceTop {
+        text-align: center;
+        
+        .myServiceCards{
+            margin: 70px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

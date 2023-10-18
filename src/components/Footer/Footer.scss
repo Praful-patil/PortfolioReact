@@ -1,0 +1,27 @@
+.footerContainer {
+    display: flex;
+    .footerLeft {
+        display: flex;
+        width: 50%;
+        .footerHeading {
+            color: #000;
+            font-family: Inter;
+            font-size: 35px;
+            font-weight: 700;
+        }
+    }
+    .footerRight{
+        display: flex;
+        width: 50%;
+        .footerInfoList{
+            .footerInfoListItem{
+                list-style: none;
+            }
+        }
+        .footerSocialList{
+            .footerSocialListItem{
+                list-style: none;
+            }
+        }
+    }
+}
